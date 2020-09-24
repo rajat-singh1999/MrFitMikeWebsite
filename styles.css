@@ -145,6 +145,27 @@ margin-bottom: 100px;
   margin: 20px;
 }
 
+.register-container h1 {
+ text-align: center;
+ position: relative;
+ width: 30%;
+ height: 10%;
+ padding-left: 30%; 
+}
+
+.register-container button {
+ margin-top: 30%;
+ width: 20%;
+ height: 7%;
+}
+
+#Social {
+ background-color: #808080;
+ height: auto;
+}
+#Social .container{
+ padding-top: 0px;
+}
 
 @media only screen and (max-width: 768px) {
 h1 {
@@ -192,5 +213,19 @@ text-align: center;
 #Google .container img{
 width: 275px;
 height: 125px;
+}
+.register-container button {
+margin-top: 35%;
+width: 50%;
+height: 10%;
+}
+#mail-us-button {
+margin-top: 10px;
+}
+#Social .container {
+padding-bottom: 10px;
+}
+#Social h2 {
+font-size: 1.25rem;
 }
 }
