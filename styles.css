@@ -6,7 +6,12 @@ z-index: 1;
 border-bottom-right-radius: 1rem;
 border-bottom-left-radius: 1rem;
 }
-
+#Poster button {
+position: absolute;
+border-radius: 2rem;
+top: 400px;
+left: 100px;
+}
 h1 {
 margin-top: 50px;
 }
@@ -185,6 +190,12 @@ font-size: 1.5rem;
 .bar-custom {
 height: auto;
 }
+#Poster button {
+position: absolute;
+border-radius: 1rem;
+left: 30px;
+top: 175px;
+}
 .logo-pic {
 height: 30%;
 width: 30%;
@@ -244,7 +255,7 @@ height: 10%;
 padding: 0;
 }
 #mail-us-button {
-margin-top: 0px;
+margin-top: 10px;
 }
 #Social .container {
 padding-bottom: 10px;
